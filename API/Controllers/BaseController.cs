@@ -29,10 +29,10 @@ namespace API.Controllers
             return Unauthorized("Unauthorized access");
         }
 
-        [HttpGet("{id}")]
-        public IActionResult Get(string id)
-        {
-            return Ok($"Retrieved resource with ID: {id}");
-        }
+        // [HttpGet("{id}")]
+        // public IActionResult Get(string id)
+        // {
+        //     return Ok($"Retrieved resource with ID: {id}");
+        // }
     }
 }
